@@ -194,10 +194,16 @@ function drawScene(data) {
 async function load(forceRefresh = false) {
   try {
     const showSpace = toggleSpacecraft ? toggleSpacecraft.checked : true;
-    const url = forceRefresh ? `/api/positions?refresh=true&spacecraft=${showSpace}` : `/api/positions?spacecraft=${showSpace}`;
-    const res = await fetch(url);
+    
+    // Load data from static JSON file
+    const res = await fetch('./data/positions.json');
     const data = await res.json();
-    if (data.error) throw new Error(data.error);
+    
+    // Filter spacecraft if needed
+    if (!showSpace) {
+      data.bodies = data.bodies.filter(body => body.type !== 'spacecraft');
+    }
+    
     window.lastDataCache = data; // Cache for zoom slider
     drawScene(data);
   } catch (e) {
@@ -261,4 +267,5 @@ window.addEventListener('resize', () => {
 });
 
 safeLoad();
-setInterval(load, 60_000); // refresh every minute
+// Remove automatic refresh for static data
+// setInterval(load, 60_000); // refresh every minute

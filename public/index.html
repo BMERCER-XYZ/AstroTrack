@@ -11,7 +11,7 @@
       <h1>Solar System - Top-down Map</h1>
       <div class="controls">
         <label>Scale (AU per 100px): <input id="scaleInput" type="number" step="0.1" min="0.1" value="1" /></label>
-        <button id="refreshBtn">Refresh</button>
+        <button id="refreshBtn">Reload Data</button>
         <span id="timestamp"></span>
       </div>
     </header>
@@ -26,7 +26,7 @@
       <aside>
         <h2>Legend</h2>
         <ul id="legend"></ul>
-        <p class="note">Data source: NASA/JPL Horizons API. Coordinates are Sun-centered, ecliptic plane, units AU.</p>
+        <p class="note">Data source: NASA/JPL Horizons API (updated daily via GitHub Actions). Coordinates are Sun-centered, ecliptic plane, units AU.</p>
       </aside>
     </main>
     <script src="main.js"></script>

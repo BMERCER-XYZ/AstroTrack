@@ -2,17 +2,14 @@
   "name": "astrotrack",
   "version": "0.1.0",
   "private": true,
-  "description": "Live top-down map of planetary positions using NASA JPL Horizons API",
-  "main": "src/server.js",
+  "description": "Static top-down map of planetary positions using NASA JPL Horizons API data",
   "type": "module",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "node src/server.js",
     "generate": "node scripts/generate_data.js",
-    "preview": "powershell -NoProfile -Command \"Start-Process http://localhost:8080/docs/index.html; python -m http.server 8080\""
+    "serve": "python3 -m http.server 8080",
+    "preview": "open http://localhost:8080 && python3 -m http.server 8080"
   },
-  "dependencies": {
-    "express": "^4.19.2",
+  "devDependencies": {
     "node-fetch": "^3.3.2"
   }
 }
