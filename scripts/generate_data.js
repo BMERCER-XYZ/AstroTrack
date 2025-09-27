@@ -129,8 +129,8 @@ async function main() {
     bodies: successes,
     failed: failures.map(({ id, name, error }) => ({ id, name, error }))
   };
-  const outPath = new URL('../public/data/positions.json', import.meta.url);
-  fs.mkdirSync(new URL('../public/data/', import.meta.url), { recursive: true });
+  const outPath = new URL('../docs/data/positions.json', import.meta.url);
+  fs.mkdirSync(new URL('../docs/data/', import.meta.url), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(payload, null, 2));
   console.log('Wrote', outPath.pathname);
 }
