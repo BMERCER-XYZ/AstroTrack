@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "created": "2025-10-04T00:00:00",
+    "last_updated": "2025-10-04T00:00:00",
+    "description": "Daily astronomy data from JPL Horizons API",
+    "repository": "AstroTrack",
+    "total_bodies": 0,
+    "successful_updates": 0,
+    "last_run_status": "initialized"
+  },
+  "celestial_bodies": {}
+}
