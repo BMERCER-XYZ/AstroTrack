@@ -43,7 +43,7 @@ def fetch_horizons_data(body_id, body_name):
         'START_TIME': start_date,
         'STOP_TIME': end_date,
         'STEP_SIZE': '1d',
-        'QUANTITIES': '1,9,20,23,24',  # RA, DEC, magnitude, distance, etc.
+        'QUANTITIES': '1,9,20',  # RA, DEC, magnitude, distance
     }
     
     try:
