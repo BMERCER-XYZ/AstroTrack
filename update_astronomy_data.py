@@ -28,22 +28,22 @@ def fetch_horizons_data(body_id, body_name):
     """
     Fetch ephemeris data from JPL Horizons API for a specific celestial body
     """
-    # Get current date and next 7 days
-    start_date = datetime.now().strftime('%Y-%m-%d')
-    end_date = (datetime.now() + timedelta(days=7)).strftime('%Y-%m-%d')
-    
-    # Horizons API parameters
+    # Use a single timestamp (current UTC) for TLIST
+    time_str = datetime.utcnow().strftime('%Y-%m-%d %H:%M')
+    # Horizons API parameters (matching JS version)
     params = {
         'format': 'json',
-        'COMMAND': body_id,
-        'OBJ_DATA': 'YES',
+        'COMMAND': f"'{body_id}'",
         'MAKE_EPHEM': 'YES',
-        'EPHEM_TYPE': 'OBSERVER',
-        'CENTER': '500@399',  # Geocentric
-        'START_TIME': start_date,
-        'STOP_TIME': end_date,
-        'STEP_SIZE': '1d',
-        'QUANTITIES': '1,9,20',  # RA, DEC, magnitude, distance
+        'EPHEM_TYPE': 'VECTORS',
+        'CENTER': "'500@10'",  # Heliocentric
+        'REF_PLANE': 'ECLIPTIC',
+        'OUT_UNITS': 'AU-D',
+        'VEC_TABLE': '1',
+        'CSV_FORMAT': 'YES',
+        'VEC_LABELS': 'YES',
+        'TIME_TYPE': 'UT',
+        'TLIST': f"'{time_str}'"
     }
     
     try:
