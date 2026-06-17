@@ -1,51 +1,75 @@
 {
-  "timestamp_utc": "2026-Jun-16 10:55:25",
+  "timestamp_utc": "2026-Jun-17 10:26:28",
   "center": "Sun",
   "ref_plane": "ECLIPTIC",
   "units": {
     "distance": "au"
   },
-  "bodies": [],
-  "failed": [
+  "bodies": [
     {
       "id": "199",
       "name": "Mercury",
-      "error": "HTTPSConnectionPool(host='ssd.jpl.nasa.gov', port=443): Max retries exceeded with url: /api/horizons.api?format=json&COMMAND=%27199%27&OBJ_DATA=NO&MAKE_EPHEM=YES&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&REF_PLANE=ECLIPTIC&OUT_UNITS=AU-D&VEC_TABLE=1&TIME_TYPE=UT&TLIST=%272026-06-16+10%3A55%27 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ssd.jpl.nasa.gov', port=443) at 0x7fdc2843f1c0>, 'Connection to ssd.jpl.nasa.gov timed out. (connect timeout=30)'))"
+      "type": "planet",
+      "x": -0.3487956089199234,
+      "y": -0.2680364499827805,
+      "z": 0.01008565575068298
     },
     {
       "id": "299",
       "name": "Venus",
-      "error": "HTTPSConnectionPool(host='ssd.jpl.nasa.gov', port=443): Max retries exceeded with url: /api/horizons.api?format=json&COMMAND=%27299%27&OBJ_DATA=NO&MAKE_EPHEM=YES&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&REF_PLANE=ECLIPTIC&OUT_UNITS=AU-D&VEC_TABLE=1&TIME_TYPE=UT&TLIST=%272026-06-16+10%3A55%27 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ssd.jpl.nasa.gov', port=443) at 0x7fdc2843fbb0>, 'Connection to ssd.jpl.nasa.gov timed out. (connect timeout=30)'))"
+      "type": "planet",
+      "x": -0.7159519514412253,
+      "y": -0.06923574649821723,
+      "z": 0.04035864275321824
     },
     {
       "id": "399",
       "name": "Earth",
-      "error": "HTTPSConnectionPool(host='ssd.jpl.nasa.gov', port=443): Max retries exceeded with url: /api/horizons.api?format=json&COMMAND=%27399%27&OBJ_DATA=NO&MAKE_EPHEM=YES&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&REF_PLANE=ECLIPTIC&OUT_UNITS=AU-D&VEC_TABLE=1&TIME_TYPE=UT&TLIST=%272026-06-16+10%3A56%27 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ssd.jpl.nasa.gov', port=443) at 0x7fdc285f9910>, 'Connection to ssd.jpl.nasa.gov timed out. (connect timeout=30)'))"
+      "type": "planet",
+      "x": -0.07272432042811018,
+      "y": -1.013314212831085,
+      "z": 5.978105126114014e-05
     },
     {
       "id": "499",
       "name": "Mars",
-      "error": "HTTPSConnectionPool(host='ssd.jpl.nasa.gov', port=443): Max retries exceeded with url: /api/horizons.api?format=json&COMMAND=%27499%27&OBJ_DATA=NO&MAKE_EPHEM=YES&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&REF_PLANE=ECLIPTIC&OUT_UNITS=AU-D&VEC_TABLE=1&TIME_TYPE=UT&TLIST=%272026-06-16+10%3A56%27 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ssd.jpl.nasa.gov', port=443) at 0x7fdc2843f550>, 'Connection to ssd.jpl.nasa.gov timed out. (connect timeout=30)'))"
+      "type": "planet",
+      "x": 1.263625704298317,
+      "y": 0.6638277463933938,
+      "z": -0.01707343237184673
     },
     {
       "id": "599",
       "name": "Jupiter",
-      "error": "HTTPSConnectionPool(host='ssd.jpl.nasa.gov', port=443): Max retries exceeded with url: /api/horizons.api?format=json&COMMAND=%27599%27&OBJ_DATA=NO&MAKE_EPHEM=YES&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&REF_PLANE=ECLIPTIC&OUT_UNITS=AU-D&VEC_TABLE=1&TIME_TYPE=UT&TLIST=%272026-06-16+10%3A57%27 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ssd.jpl.nasa.gov', port=443) at 0x7fdc2844e520>, 'Connection to ssd.jpl.nasa.gov timed out. (connect timeout=30)'))"
+      "type": "planet",
+      "x": -2.844198488963358,
+      "y": 4.438167819828235,
+      "z": 0.04519879660344885
     },
     {
       "id": "699",
       "name": "Saturn",
-      "error": "HTTPSConnectionPool(host='ssd.jpl.nasa.gov', port=443): Max retries exceeded with url: /api/horizons.api?format=json&COMMAND=%27699%27&OBJ_DATA=NO&MAKE_EPHEM=YES&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&REF_PLANE=ECLIPTIC&OUT_UNITS=AU-D&VEC_TABLE=1&TIME_TYPE=UT&TLIST=%272026-06-16+10%3A57%27 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ssd.jpl.nasa.gov', port=443) at 0x7fdc2844ee50>, 'Connection to ssd.jpl.nasa.gov timed out. (connect timeout=30)'))"
+      "type": "planet",
+      "x": 9.384011801955168,
+      "y": 1.186583943917516,
+      "z": -0.394204312987471
     },
     {
       "id": "799",
       "name": "Uranus",
-      "error": "HTTPSConnectionPool(host='ssd.jpl.nasa.gov', port=443): Max retries exceeded with url: /api/horizons.api?format=json&COMMAND=%27799%27&OBJ_DATA=NO&MAKE_EPHEM=YES&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&REF_PLANE=ECLIPTIC&OUT_UNITS=AU-D&VEC_TABLE=1&TIME_TYPE=UT&TLIST=%272026-06-16+10%3A58%27 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ssd.jpl.nasa.gov', port=443) at 0x7fdc283d77f0>, 'Connection to ssd.jpl.nasa.gov timed out. (connect timeout=30)'))"
+      "type": "planet",
+      "x": 9.30120613415218,
+      "y": 17.09349970050061,
+      "z": -0.05711850336227239
     },
     {
       "id": "899",
       "name": "Neptune",
-      "error": "HTTPSConnectionPool(host='ssd.jpl.nasa.gov', port=443): Max retries exceeded with url: /api/horizons.api?format=json&COMMAND=%27899%27&OBJ_DATA=NO&MAKE_EPHEM=YES&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&REF_PLANE=ECLIPTIC&OUT_UNITS=AU-D&VEC_TABLE=1&TIME_TYPE=UT&TLIST=%272026-06-16+10%3A58%27 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ssd.jpl.nasa.gov', port=443) at 0x7fdc2843ffd0>, 'Connection to ssd.jpl.nasa.gov timed out. (connect timeout=30)'))"
+      "type": "planet",
+      "x": 29.85381678922534,
+      "y": 1.047307215138183,
+      "z": -0.709532846717592
     }
-  ]
+  ],
+  "failed": []
 }
