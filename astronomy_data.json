@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-Aug-12 07:09:35",
+  "timestamp_utc": "2026-Aug-13 07:13:27",
   "center": "Sun",
   "ref_plane": "ECLIPTIC",
   "units": {
@@ -7,61 +7,69 @@
   },
   "bodies": [
     {
+      "id": "199",
+      "name": "Mercury",
+      "type": "planet",
+      "x": 0.1027733397421946,
+      "y": 0.2898624133521641,
+      "z": 0.01426266344073228
+    },
+    {
+      "id": "299",
+      "name": "Venus",
+      "type": "planet",
+      "x": 0.08092542204326288,
+      "y": -0.722667532909585,
+      "z": -0.01459795922803904
+    },
+    {
+      "id": "399",
+      "name": "Earth",
+      "type": "planet",
+      "x": 0.7785159269402481,
+      "y": -0.6484419515987124,
+      "z": 3.42283740203134e-05
+    },
+    {
       "id": "499",
       "name": "Mars",
       "type": "planet",
-      "x": 0.7588712958409997,
-      "y": 1.287158566755761,
-      "z": 0.008366341712979918
+      "x": 0.7472826782966857,
+      "y": 1.295422776543879,
+      "z": 0.008823689920339188
     },
     {
       "id": "599",
       "name": "Jupiter",
       "type": "planet",
-      "x": -3.195016837396659,
-      "y": 4.216488544329139,
-      "z": 0.05396879796320565
+      "x": -3.201137687052194,
+      "y": 4.212263959754952,
+      "z": 0.05412331076492921
     },
     {
       "id": "699",
       "name": "Saturn",
       "type": "planet",
-      "x": 9.322471212184059,
-      "y": 1.494305840017362,
-      "z": -0.3971149234049392
+      "x": 9.321273361041925,
+      "y": 1.499814835731027,
+      "z": -0.3971628503648866
     },
     {
       "id": "799",
       "name": "Uranus",
       "type": "planet",
-      "x": 9.105660616667963,
-      "y": 17.18709698861119,
-      "z": -0.05423492238895166
+      "x": 9.102139939562555,
+      "y": 17.18875726049776,
+      "z": -0.05418314779319991
     },
     {
       "id": "899",
       "name": "Neptune",
       "type": "planet",
-      "x": 29.8456748293742,
-      "y": 1.223471658744708,
-      "z": -0.7129767115272883
+      "x": 29.84551898400644,
+      "y": 1.226632999725815,
+      "z": -0.7130383702710111
     }
   ],
-  "failed": [
-    {
-      "id": "199",
-      "name": "Mercury",
-      "error": "500 Server Error: Internal Server Error for url: https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27199%27&OBJ_DATA=NO&MAKE_EPHEM=YES&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&REF_PLANE=ECLIPTIC&OUT_UNITS=AU-D&VEC_TABLE=1&TIME_TYPE=UT&TLIST=%272026-08-12+07%3A09%27"
-    },
-    {
-      "id": "299",
-      "name": "Venus",
-      "error": "500 Server Error: Internal Server Error for url: https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27299%27&OBJ_DATA=NO&MAKE_EPHEM=YES&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&REF_PLANE=ECLIPTIC&OUT_UNITS=AU-D&VEC_TABLE=1&TIME_TYPE=UT&TLIST=%272026-08-12+07%3A09%27"
-    },
-    {
-      "id": "399",
-      "name": "Earth",
-      "error": "500 Server Error: Internal Server Error for url: https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27399%27&OBJ_DATA=NO&MAKE_EPHEM=YES&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&REF_PLANE=ECLIPTIC&OUT_UNITS=AU-D&VEC_TABLE=1&TIME_TYPE=UT&TLIST=%272026-08-12+07%3A09%27"
-    }
-  ]
+  "failed": []
 }
