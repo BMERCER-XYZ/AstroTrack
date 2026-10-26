@@ -1,75 +1,51 @@
 {
-  "timestamp_utc": "2026-Oct-25 10:25:58",
+  "timestamp_utc": "2026-Oct-26 11:55:22",
   "center": "Sun",
   "ref_plane": "ECLIPTIC",
   "units": {
     "distance": "au"
   },
-  "bodies": [
+  "bodies": [],
+  "failed": [
     {
       "id": "199",
       "name": "Mercury",
-      "type": "planet",
-      "x": 0.3601977717902724,
-      "y": -0.0683815973251901,
-      "z": -0.03862443494797559
+      "error": "Could not parse vector data"
     },
     {
       "id": "299",
       "name": "Venus",
-      "type": "planet",
-      "x": 0.6106731983725533,
-      "y": 0.3879262764911343,
-      "z": -0.02990431283210106
+      "error": "Could not parse vector data"
     },
     {
       "id": "399",
       "name": "Earth",
-      "type": "planet",
-      "x": 0.8464831241069958,
-      "y": 0.521834514802436,
-      "z": -3.925988415678298e-05
+      "error": "Could not parse vector data"
     },
     {
       "id": "499",
       "name": "Mars",
-      "type": "planet",
-      "x": -0.2010063722104594,
-      "y": 1.573879246204921,
-      "z": 0.03791141636687134
+      "error": "Could not parse vector data"
     },
     {
       "id": "599",
       "name": "Jupiter",
-      "type": "planet",
-      "x": -3.629509319621009,
-      "y": 3.881972433720987,
-      "z": 0.06507969567463652
+      "error": "Could not parse vector data"
     },
     {
       "id": "699",
       "name": "Saturn",
-      "type": "planet",
-      "x": 9.225072669184026,
-      "y": 1.900072278132858,
-      "z": -0.4003058440459539
+      "error": "Could not parse vector data"
     },
     {
       "id": "799",
       "name": "Uranus",
-      "type": "planet",
-      "x": 8.844406038780095,
-      "y": 17.30794070103226,
-      "z": -0.05039728903233129
+      "error": "Could not parse vector data"
     },
     {
       "id": "899",
       "name": "Neptune",
-      "type": "planet",
-      "x": 29.83328803782493,
-      "y": 1.457164548514898,
-      "z": -0.7175076664646152
+      "error": "Could not parse vector data"
     }
-  ],
-  "failed": []
+  ]
 }
