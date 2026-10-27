@@ -1,51 +1,75 @@
 {
-  "timestamp_utc": "2026-Oct-26 11:55:22",
+  "timestamp_utc": "2026-Oct-27 11:17:49",
   "center": "Sun",
   "ref_plane": "ECLIPTIC",
   "units": {
     "distance": "au"
   },
-  "bodies": [],
-  "failed": [
+  "bodies": [
     {
       "id": "199",
       "name": "Mercury",
-      "error": "Could not parse vector data"
+      "type": "planet",
+      "x": 0.3552419307108354,
+      "y": -0.008927372918915493,
+      "z": -0.03331105356466533
     },
     {
       "id": "299",
       "name": "Venus",
-      "error": "Could not parse vector data"
+      "type": "planet",
+      "x": 0.5874888053888085,
+      "y": 0.421866158905175,
+      "z": -0.02810019649973592
     },
     {
       "id": "399",
       "name": "Earth",
-      "error": "Could not parse vector data"
+      "type": "planet",
+      "x": 0.8270169024980004,
+      "y": 0.5511782025064935,
+      "z": -4.140401027908209e-05
     },
     {
       "id": "499",
       "name": "Mars",
-      "error": "Could not parse vector data"
+      "type": "planet",
+      "x": -0.228158160508775,
+      "y": 1.572448142936292,
+      "z": 0.03854718444887875
     },
     {
       "id": "599",
       "name": "Jupiter",
-      "error": "Could not parse vector data"
+      "type": "planet",
+      "x": -3.640902576356314,
+      "y": 3.872174651865252,
+      "z": 0.06537529314436591
     },
     {
       "id": "699",
       "name": "Saturn",
-      "error": "Could not parse vector data"
+      "type": "planet",
+      "x": 9.222144479570693,
+      "y": 1.911164408325559,
+      "z": -0.4003827923843675
     },
     {
       "id": "799",
       "name": "Uranus",
-      "error": "Could not parse vector data"
+      "type": "planet",
+      "x": 8.837205764942992,
+      "y": 17.31120385045443,
+      "z": -0.05029175683354656
     },
     {
       "id": "899",
       "name": "Neptune",
-      "error": "Could not parse vector data"
+      "type": "planet",
+      "x": 29.83292318664502,
+      "y": 1.463578691652055,
+      "z": -0.7176320669004166
     }
-  ]
+  ],
+  "failed": []
 }
