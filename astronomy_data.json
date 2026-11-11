@@ -1,51 +1,75 @@
 {
-  "timestamp_utc": "2026-Nov-10 13:59:04",
+  "timestamp_utc": "2026-Nov-11 13:15:27",
   "center": "Sun",
   "ref_plane": "ECLIPTIC",
   "units": {
     "distance": "au"
   },
-  "bodies": [],
-  "failed": [
+  "bodies": [
     {
       "id": "199",
       "name": "Mercury",
-      "error": "Could not parse vector data"
+      "type": "planet",
+      "x": 0.02732363498540194,
+      "y": 0.3059172847315518,
+      "z": 0.02249482808335837
     },
     {
       "id": "299",
       "name": "Venus",
-      "error": "Could not parse vector data"
+      "type": "planet",
+      "x": 0.3623773472388531,
+      "y": 0.6240975881634925,
+      "z": -0.01233225540227872
     },
     {
       "id": "399",
       "name": "Earth",
-      "error": "Could not parse vector data"
+      "type": "planet",
+      "x": 0.6523231735396425,
+      "y": 0.7448470402920984,
+      "z": -4.726420156454007e-05
     },
     {
       "id": "499",
       "name": "Mars",
-      "error": "Could not parse vector data"
+      "type": "planet",
+      "x": -0.4265878590188957,
+      "y": 1.547070595345539,
+      "z": 0.04288081263500579
     },
     {
       "id": "599",
       "name": "Jupiter",
-      "error": "Could not parse vector data"
+      "type": "planet",
+      "x": -3.724388769056142,
+      "y": 3.798596470671262,
+      "z": 0.06754888543809977
     },
     {
       "id": "699",
       "name": "Saturn",
-      "error": "Could not parse vector data"
+      "type": "planet",
+      "x": 9.20003739085438,
+      "y": 1.993259077098379,
+      "z": -0.4009326355972493
     },
     {
       "id": "799",
       "name": "Uranus",
-      "error": "Could not parse vector data"
+      "type": "planet",
+      "x": 8.783807454780165,
+      "y": 17.33529171488001,
+      "z": -0.04950946205558
     },
     {
       "id": "899",
       "name": "Neptune",
-      "error": "Could not parse vector data"
+      "type": "planet",
+      "x": 29.83017195731383,
+      "y": 1.51110311805006,
+      "z": -0.7185478067712013
     }
-  ]
+  ],
+  "failed": []
 }
